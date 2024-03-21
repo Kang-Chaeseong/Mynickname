@@ -11,7 +11,7 @@
 }
 
 :root{
-    --color-main-black: #3e3e3e;
+    --color-main-black: #3e3e3e; /*앞의 변수에 색상코드 할당*/
     --color-orange-main: #fe9519;
 }
 
@@ -23,12 +23,13 @@
     width:40px;
     height:40px;
     border-radius: 8px;
-}
+} /* logo는 이미지, btn은 버튼이므로 같은것 같아도 다르다. 따라서 이를 따로 구성하여
+클래스를 꾸며주어야 한다.*/
 
 .likelionlogo_btn{
     width:60px;
     height:60px;
-    background-color: #ffffff;
+    background-color: #ffffff; /* 버튼의 배경 색상*/
     border: none;
     border-radius: 8px;
     font-family: "Gmarket Sans";
@@ -81,7 +82,7 @@
     color: #ffffff;
     font-size: 12px;
     text-decoration: none;
-}
+} /*homework_list라는 클래스를 목록이라고 화면에 표시하였다.*/
 
 .assignment_nav{
     width: 50px;
